@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
-    transition: 0.4s ease-in-out;
+    transition: 0.4s all;
 }
 button{
     background-color: transparent;
@@ -148,6 +148,7 @@ body a:hover{
 }
 /* Hero Section */
 .hero-section{
+    margin: 0 90px;
     padding-top: 100px;
     display: flex;
 }
@@ -174,6 +175,7 @@ body a:hover{
 @media (max-width: 991px){
     .hero-section{
         flex-direction: column-reverse;
+        margin: 0;
     }
     .hero-section h1{
         font-size: 32px;
@@ -188,7 +190,8 @@ body a:hover{
     top: 95px;
     padding-top: 530px;
     padding-right: 140px;
-    padding-left: 30px;
+    padding-left: 90px;
+    padding-bottom: 60px;
 }
 .opening-box h4{
     font-weight: 600;
@@ -209,4 +212,73 @@ body a:hover{
         position: relative;
         top: 0;
     }
+}
+/* Offer */
+.offer{
+    padding-top: 300px;
+}
+.offer-title h1{
+    margin: 0 90px 30px 90px;
+    font-size: 46px;
+    font-weight: 600;
+    color: #384157;
+}
+.offer a:hover{
+    text-decoration: none;
+}
+.offer-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin: 0 90px;
+}
+@media (max-width: 768px){
+    .offer-wrapper{
+        grid-template-columns: auto auto;
+    }
+    .offer{
+        padding-top: 60px;
+    }
+    .offer-title{
+        text-align: center;
+    }
+}
+@media (max-width: 575px){
+    .offer-wrapper{
+        grid-template-columns: auto;
+    /* justify-content: center; */
+    }
+}
+.offer-item{
+    padding: 20px 0 20px 10px;
+    color: #384157;
+}
+.offer-item:hover{
+    background-color: #384157;
+    color: #f3f0ef;
+}
+.offer-item:hover .offer-item-img img{
+    filter: brightness(2000%);
+}
+.offer-item-img img{
+    filter: brightness(100%);
+    width: 32px;
+    padding-right: 5px;
+}
+/* Our team */
+.our-team-section{
+    background: url(/images/our-team-bg.jpeg) no-repeat;
+    margin-top: 60px;
+    padding-top: 60px;
+}
+.our-team{
+    /* margin: 20px 90px 0 90px; */
+    background-color: #FFFFFF;
+    padding: 50px 25px;
+}
+.our-team-item{
+    max-width: 300px;
+}
+.our-team-item-img img{
+    width: 100%;
 }
