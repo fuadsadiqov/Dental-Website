@@ -56,9 +56,11 @@ body a:hover{
     color: #384157;
     font-size: 16px;
 }
-.mobile-nav,
-.nav-logo{
+.mobile-nav{
     z-index: 10;
+    display: none;
+}
+.nav-logo{
     display: none;
 }
 #close{
@@ -404,3 +406,82 @@ body a:hover{
         height: 400px;
     }
 }
+.footer{
+    margin-top: -100px;
+    padding: 150px 180px 50px 180px;
+    color: #FFFFFF;
+    background-color: #384157;
+}
+.footer a, .footer a:hover{
+    color: #FFFFFF;
+}
+.footer-logo a, .footer-logo a:hover{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+.footer-list h6{
+    margin-top: -30px;
+    font-size: 18px;
+}
+.footer-social i{
+    margin-right: 5px;
+    font-size: 18px;
+    border: 1.5px solid #fff;
+    padding: 9px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+@media (max-width: 991px){
+    .footer{
+        padding: 120px 20px 50px 20px;
+    }
+    .footer ul{
+        padding-left: 0;
+    }
+    .footer-wrapper{
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+    }
+    .footer-list h6{
+        margin-top: 20px;
+    }
+    .footer-item{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+/* Top button styles */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #384157;
+    color: white;
+    cursor: pointer;
+    padding: 7px 14px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #FFFFFF;
+    color: #333;
+  }

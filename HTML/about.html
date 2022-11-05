@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/pages.css">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Boostrap -->
+    <!-- Font Awasome -->
+    <script src="https://kit.fontawesome.com/18fe446eba.js" crossorigin="anonymous"></script>
+    <!-- Font Awasome -->
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+    <title>SAAF DENT</title>
+</head>
+<body>
+    <div class="body">
+    <header>
+        <div class="container">
+            <div class="header-wrapper  d-flex align-items-center justify-content-between">
+                <div class="header-logo">
+                    <a href="/index.html"><p>SAAF <b>DENT</b></p></a>
+                </div>
+                <div class="header-right">
+                    <ul class="d-flex mb-0">
+                        <li><a href="/HTML/offer.html">Xidmətlərimiz</a></li>
+                        <li><a href="/HTML/team.html">Komandanmız</a></li>
+                        <li><a href="/HTML/about.html"><b>Haqqımızda</b></a></li>
+                        <li><a href="/HTML/blog.html">Blog</a></li>
+                        <li><a class="contact" href="/HTML/contact.html">Əlaqə</a></li>
+                        <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
+                        <li><i onclick="searchFunction()" class="fa fa-search"></i></li>
+                    </ul>
+                    <input id="search" class="search-input" type="text" placeholder="Axtar">
+                    <i id="close" onclick="closeFunction()" class="fa-solid fa-xmark"></i>
+                </div>
+                <div id="nav-logo" class="nav-logo">
+                    <img onclick="myFunction()" src="/images/nav.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="mobile-nav"  class="mobile-nav">
+            <div class="nav-list">
+                <ul class="p-0">
+                    <li><a href="/HTML/offer.html">Xidmətlərimiz</a></li>
+                    <li><a href="/HTML/team.html">Komandanmız</a></li>
+                    <li><a href="/HTML/about.html">Haqqımızda</a></li>
+                    <li><a href="/HTML/blog.html">Blog</a></li>
+                    <li><a class="contact" href="/HTML/contact.html">Əlaqə</a></li>
+                    <li class="mobile-social">
+                        <ul class="p-0">
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa fa-whatsapp"></i></a></li>
+                            <li class="mobileSearch">
+                                <i onclick="mobileSearchFunction()" class="fa fa-search"></i>
+                                <input type="text" id="mobileSearch">
+                                <i id="mobileClose" onclick="mobileCloseFunction()" class="fa-solid fa-xmark"></i>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <section>
+            <div class="container">
+                <div class="hero-section col-12">
+                    <div class="hero-info col-lg-6 col-12">
+                        <div class="hero-title">
+                            <h1>We are offering complex dental health care</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros 
+                                elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo.
+                            </p>
+                        </div>
+                       </div>
+                    <div class="hero-right col-lg-6 col-12">
+                        <img src="/images/about-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section class="color-mode">
+        <div class="container">
+            <div class="color-mode-title">
+                <h1 class="text-center">SAAF DENT helps you to build the best dental website</h1>
+            </div>
+            <div class="color-mode-wrapper">
+                <div class="color-mode-item">
+                    <img src="/images/color-mode-1.svg" alt="">
+                    <p class="pt-2">We  care about you the most</p>
+                </div>
+                <div class="color-mode-item">
+                    <img src="/images/color-mode-2.svg" alt="">
+                    <p class="pt-2">Your teeth are save with us</p>
+                </div>
+                <div class="color-mode-item">
+                    <img src="/images/color-mode-3.svg" alt="">
+                    <p class="pt-2">The best technology for teeth care</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-logo"><a href="/index.html">SAAF <b>DENT</b></a></div>
+                <div class="footer-item">
+                    <ul class="footer-list">
+                        <h6>Pages</h6>
+                        <li><a href="/HTML/about.html">About</a></li>
+                        <li><a href="/HTML/team.html">Team</a></li>
+                        <li><a href="/HTML/blog.html">Blog</a></li>
+                    </ul>
+                    <ul class="footer-list">
+                        <li><a href="/HTML/offer.html">Offer</a></li>
+                        <li><a href="/HTML/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-whatsapp"></i></a>
+                </div>
+                <div class="footer-copyright">2020 My Company. All rights reserved.</div>
+            </div>
+        </div>
+    </section>
+    <!-- Top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+    <!-- End of Top button -->
+</div>
+<script src="/script.js"></script>
+</body>
+</html>
