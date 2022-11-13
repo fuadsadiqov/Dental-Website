@@ -56,7 +56,7 @@ body a:hover{
 .header-logo p{
     font-size: 18px;
     font-weight: 500;
-    margin-top: 15px;
+    margin-bottom: 0;
 }
 .header-right a{
     color: #444;
@@ -481,10 +481,12 @@ body a:hover{
     margin-top: -30px;
     font-size: 18px;
 }
-.footer-list a:hover{
+.footer-list a:hover,
+.footer-logo a:hover{
     text-decoration: none;
 }
-.footer-list li a::after{
+.footer-list li a::after,
+.footer-logo::after{
     display: block;
     content: "";
     width: 0%;
@@ -494,7 +496,8 @@ body a:hover{
     left: 0;
     transition: 0.4s;
 }
-.footer-list li a:hover::after{
+.footer-list li a:hover::after,
+.footer-logo:hover::after{
     width: 100%;
 }
 .footer-social i{
