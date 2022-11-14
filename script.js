@@ -5,11 +5,11 @@ var mobileSearch = document.getElementById('mobileSearch');
 var mobileClose = document.getElementById('mobileClose');
 
 function myFunction(){
-    if(navList.style.display === "block"){
-        navList.style.display = "none";
+    if(navList.style.top === "64px"){
+        navList.style.top = "-100%";
     }
     else{
-        navList.style.display = "block";
+        navList.style.top = "64px";
     }
 }
 function searchFunction(){
