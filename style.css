@@ -83,7 +83,12 @@ body a:hover{
 .header-right li:hover::after{
     width: 100%;
 }
-.header-right ul li:not(:last-child){
+.header-right ul li:nth-child(1),
+.header-right ul li:nth-child(2),
+.header-right ul li:nth-child(3),
+.header-right ul li:nth-child(4),
+.header-right ul li:nth-child(5)
+{
     margin-right: 20px;
 }
 .contact{
@@ -107,9 +112,6 @@ body a:hover{
 .fa-search:hover{
     background-color: transparent !important;
     color: #384157 !important;
-}
-.header-right ul li.header-social{
-    margin-right: 7px;
 }
 .mobile-nav{
     z-index: 10;
