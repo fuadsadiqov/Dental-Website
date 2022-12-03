@@ -585,3 +585,14 @@ body a:hover{
     background-color: #FFFFFF;
     color: #333;
   }
+  /* Comment */
+  .comment{
+    width: 100%;
+    display: flex;
+  } 
+  .comment-wrapper{
+    border: 1px solid #384157;
+    width: 36vw;
+    min-height: 248px;
+    overflow-x: hidden;
+  }

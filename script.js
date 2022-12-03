@@ -66,3 +66,4 @@ for(i = 0; i< acc.length; i++){
 $(".service-item").click(function () {
   $(this).children(".accordion").children("i").toggleClass("down");
 });
+
