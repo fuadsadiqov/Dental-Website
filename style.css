@@ -11,11 +11,11 @@
 button{
     background-color: transparent;
     padding: 20px 65px;
-    border: 1px solid #384157;
-    color: #384157;
+    border: 1px solid #022879;
+    color: #022879;
 }
 button:hover{
-    background-color: #384157;
+    background-color: #022879;
     color: #fff;
 }
 ul{
@@ -37,7 +37,7 @@ body a:hover{
     margin: 32px 90px 0 90px;
     padding: 0 32px;
     height: 64px;
-    border: 1px solid #384157;
+    border: 1px solid #022879;
     position: relative;
 }
 .header-logo a:hover{
@@ -50,7 +50,7 @@ body a:hover{
     left: 0;
     width: 0%;
     height: 1px;
-    background-color: #384157;
+    background-color: #022879;
     transition: 0.4s ease-in-out;
 }
 .header-logo:hover::after{
@@ -76,7 +76,7 @@ body a:hover{
     width: 0%;
     margin: auto;
     height: 1px;
-    background-color: #384157;
+    background-color: #022879;
     left: 0;
     transition: 0.4s;
 }
@@ -92,26 +92,26 @@ body a:hover{
     margin-right: 20px;
 }
 .contact{
-    border: 1px solid #384157;
+    border: 1px solid #022879;
     padding: 10px 20px;
 }
 .contact:hover{
-    background-color: #384157;
+    background-color: #022879;
     color: #FFFFFF; 
 }
 .header-right i{
-    color: #384157;
+    color: #022879;
     padding: 4px 6px;
     font-size: 17px;
 }
 .header-right i:hover{
-    background-color: #384157;
+    background-color: #022879;
     color: #FFFFFF;
     border-radius: 6px;
 }
 .fa-search:hover{
     background-color: transparent !important;
-    color: #384157 !important;
+    color: #022879 !important;
 }
 .mobile-nav{
     z-index: 10;
@@ -154,7 +154,7 @@ body a:hover{
         margin: 0;
     }
     header{
-        border-bottom: 1px solid #384157;
+        border-bottom: 1px solid #022879;
     }
     .nav-logo{
         display: block;
@@ -218,7 +218,7 @@ body a:hover{
     display: flex;
 }
 .hero-section h1{
-    color: #384157;
+    color: #022879;
     font-size: 52px;
     font-weight: 600;
     padding-top: 10px;
@@ -236,7 +236,9 @@ body a:hover{
 }
 .hero-right img{
     width: 100%;
+    max-height: 400px;
     height: auto;
+    object-fit: cover;
 }
 @media (max-width: 991px){
     .hero-section{
@@ -255,7 +257,7 @@ body a:hover{
 }
 /* Opening box */
 .opening-box{
-    background-color: #384157;
+    background-color: #022879;
     color: #fff;
     position: absolute;
     right: 0;
@@ -293,7 +295,7 @@ body a:hover{
     margin: 0 90px 30px 90px;
     font-size: 46px;
     font-weight: 600;
-    color: #384157;
+    color: #022879;
 }
 .offer a:hover{
     text-decoration: none;
@@ -306,12 +308,12 @@ body a:hover{
 }
 .offer-item{
     padding: 20px 0 20px 10px;
-    color: #384157;
-    border: 1px solid #384157;
+    color: #022879;
+    border: 1px solid #022879;
     border-radius: 6px;
 }
 .offer-item:hover{
-    background-color: #384157;
+    background-color: #022879;
     color: #f3f0ef;
     transition: 0.001s all;
 }
@@ -357,6 +359,8 @@ body a:hover{
 }
 .our-team-item-img img{
     width: 100%;
+    max-height: 230px;
+    object-fit: cover;
 }
 .our-team-item-title{
     padding-top: 15px;
@@ -392,7 +396,7 @@ body a:hover{
 }
 /* Chat */
 .chat{
-    background-color: #384157;
+    background-color: #022879;
     padding: 5% 2%;
 }
 .chat-info{
@@ -411,7 +415,7 @@ body a:hover{
 .chat a h3{
     text-decoration: none;
     text-shadow: 0 -1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
-    color: #384157;
+    color: #022879;
 }
 .chat a h3:hover, .chat a:hover{
     text-decoration: none;
@@ -423,7 +427,7 @@ body a:hover{
     padding: 0 180px;
 }    
 .article-title h1{
-    color: #384157;
+    color: #022879;
     font-size: 41px;
     font-weight: 600;
     margin-bottom: 60px;
@@ -488,7 +492,7 @@ body a:hover{
     margin-top: -100px;
     padding: 150px 180px 50px 180px;
     color: #FFFFFF;
-    background-color: #384157;
+    background-color: #022879;
 }
 .footer a, .footer a:hover{
     color: #FFFFFF;
@@ -574,7 +578,7 @@ body a:hover{
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #384157;
+    background-color: #022879;
     color: white;
     cursor: pointer;
     padding: 7px 14px;
@@ -591,7 +595,7 @@ body a:hover{
     display: flex;
   } 
   .comment-wrapper{
-    border: 1px solid #384157;
+    border: 1px solid #022879;
     width: 36vw;
     min-height: 248px;
     overflow-x: hidden;

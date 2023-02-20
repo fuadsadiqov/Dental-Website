@@ -47,7 +47,7 @@
 }
 .service-wrapper button:hover{
     background-color: transparent;
-    color: #384157;
+    color: #022879;
 }
 .panel{
     text-align: left;
@@ -69,7 +69,7 @@
 }
 /* Color mode */
 .color-mode{
-    background-color: #384157;
+    background-color: #022879;
     color: #FFFFFF;
     margin-top: -100px;
     padding: 150px 60px 20px 60px;
